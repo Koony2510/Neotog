@@ -6,8 +6,8 @@ import requests
 import os
 import time
 
-# 오늘 날짜 (예시)
-target_date = "2025.07.27"
+# 오늘 날짜를 'YYYY.MM.DD' 형식으로 자동 설정
+target_date = datetime.today().strftime('%Y.%m.%d')
 
 # GitHub 사용자 지정
 github_assignees = ["Koony2510"]     # ⚠️ 실제 GitHub 사용자명
